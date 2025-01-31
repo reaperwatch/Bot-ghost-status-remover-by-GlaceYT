@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Made by @slashing__moon", "Check the bot's profile for help"];
-const statusTypes = [ 'dnd', 'idle', 'online'];
+const statusTypes = [ 'dnd', 'idle', 'offline'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
